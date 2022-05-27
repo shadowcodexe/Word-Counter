@@ -26,5 +26,5 @@ input.addEventListener('input',() => {
 
     // numbers
     words.innerHTML = `Words: ${wordsArr.length}`
-    numbers.innerHTML = `Number: ${input.value.replace(/[^\d]/g,'').length}`
+    numbers.innerHTML = `Numbers: ${input.value.replace(/[^\d]/g,'').length}`
 })
