@@ -1,0 +1,29 @@
+.counter {
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 5px 5px 10px #a6c4e2;
+}
+
+.info-block {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+#input {
+    padding: 1em;
+}
+
+.text {
+    font-weight: bold;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Counter</title>
+</head>
+<body>
+    <div class="counter border-primary rounded">
+        <div class="counter-header">
+            <h1 class="title text-center my-4">
+                Word Counter
+            </h1>
+        </div>
+        <textarea class="form-control w-75" id="input" placeholder="Start typing, or copy and paste your document here..."></textarea>
+        <div class="info-block my-3">
+            <p class="text my-2" id="characters"></p>
+            <p class="text my-2" id="words"></p>
+            <p class="text my-2" id="numbers"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
