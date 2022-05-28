@@ -27,3 +27,19 @@
 .text {
     font-weight: bold;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 510px) {
+    .counter {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    #input {
+        font-size: 14px;
+    }
+
+    .info-block {
+        flex-direction: column;
+        align-items: center;
+    }
+}
